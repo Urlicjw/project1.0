@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Certifications</title>
+  </head>
+  <body>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Education.html">Education</a></li>
+        <li><a href="Experience.html">Experience</a></li>
+        <li><a href="Certifications.html">Certifications</a></li>
+        <li><a href="Extracurricular.html">Extra curricular</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Homepage</h2>
+        <div class="toggle"></div>
+      </header>
+      <video src="Explore1.mp4" muted autoplay loop></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>Jacob Urlichs</h2>
+        <h3>Resume</h3>
+      </div>
+    
+
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
