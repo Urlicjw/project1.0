@@ -19,8 +19,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #111;
-  color: white;
+  background-color: #fff;
+  color: #111;
   z-index: 2;
   transition: 1.5s;
 }
@@ -45,10 +45,6 @@
   cursor: pointer;
 }
 
-#logounderline {
-  text-decoration: underline;
-}
-
 .toggle {
   position: relative;
   width: 60px;
@@ -58,7 +54,7 @@
   background-size: 30px;
   background-position: center;
   cursor: pointer;
-  filter: invert(1);
+
 }
 
 .toggle.active {
@@ -91,18 +87,25 @@
 .text {
   position: relative;
   z-index: 10;
+    /**/
 }
+
+
+
 .text h2 {
   font-size: 5em;
   font-weight: 800;
   line-height: 1em;
   text-transform: uppercase;
+  /*title top*/
+  
 }
 .text h3 {
   font-size: 4em;
   font-weight: 700;
   line-height: 1em;
   text-transform: uppercase;
+  
 }
 .text p {
   font-size: 1.1em;
@@ -156,6 +159,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 
 .menu ul {
@@ -166,8 +170,9 @@
 .menu ul li a {
   text-decoration: none;
   font-size: 24px;
-  color: #111;
+  color: #fff;
 }
+
 
 .menu ul li a:hover {
   color: var(--overlay-color);
@@ -184,4 +189,7 @@
   .text h3 {
     font-size: 2em;
   }
+}
+#logounderline {
+    text-decoration: underline;
 }
